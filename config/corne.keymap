@@ -14,7 +14,22 @@
 
         alt,ctlr,del {
             bindings = <&sk LA(LC(DEL))>;
-            key-positions = <0 11 37>;
+            key-positions = <11 0>;
+        };
+
+        ctr+z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 26>;
+        };
+
+        ctr+c {
+            bindings = <&kp LC(C)>;
+            key-positions = <27 28>;
+        };
+
+        ctr+v {
+            bindings = <&kp LC(V)>;
+            key-positions = <28 29>;
         };
     };
 
